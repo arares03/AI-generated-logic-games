@@ -1,0 +1,13 @@
+
+formulas(assumptions).
+(-P | -T).
+(-S -> P).
+(-Q & -R).
+True.
+(R | T).
+end_of_list.
+
+formulas(goals).
+T.
+end_of_list.
+    
